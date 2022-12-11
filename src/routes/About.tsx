@@ -3,45 +3,86 @@ function About() {
     <>
       <h1 className="about_h">COMPETENCES & AUTRES...</h1>
       <div className="comp_l">
+        
+         
+        
          <div >
             <img
-              src="https://zupimages.net/up/22/49/9o4w.png"
-              alt="user avatar"
-              className="logo"
-             
-            />
-         </div>
-         <div >
-            <img
-              src="https://zupimages.net/up/22/49/wq2x.jpg"
-              alt="user avatar"
-              className="logo"
-           
-            />
-      </div>
-         <div >
-            <img
-              src="https://zupimages.net/up/22/49/wq2x.jpg"
-              alt="user avatar"
-              className="logo"
+              src="https://zupimages.net/up/22/49/u7eb.png"
+              alt="Java"
               
+              width={400}
             />
-          </div>
-             <div >
-            <img
-              src="https://zupimages.net/up/22/49/wq2x.jpg"
-              alt="user avatar"
-              className="logo"
-           
-            />
+            <h4>⭐⭐⭐</h4>
       </div>
+         <div >
+            <img
+              src="https://zupimages.net/up/22/50/zz8j.png"
+              alt="Java"
+              
+              width={400}
+            />
+            <h4>⭐⭐⭐</h4>
+      </div>
+        
+         <div >
+            <img
+              src="https://zupimages.net/up/22/50/5kgw.png"
+              alt="Java"
+              
+              width={400}
+            />
+            <h4>⭐⭐⭐</h4>
+      </div>
+        
+         <div >
+            <img
+              src="https://zupimages.net/up/22/50/iztt.png"
+              alt="Java"
+              
+              width={400}
+            />
+            <h4>⭐⭐⭐</h4>
+      </div>
+         <div >
+            <img
+              src="https://zupimages.net/up/22/02/axrd.png"
+              alt="Java"
+              
+              width={400}
+            />
+            <h4>⭐⭐⭐</h4>
+      </div>
+         <div >
+            <img
+              src="https://zupimages.net/up/22/50/5m4z.png"
+              alt="Java"
+              
+              width={400}
+            />
+            <h4>⭐⭐⭐</h4>
+      </div>
+        
+         <div >
+            <img
+              src="https://zupimages.net/up/22/50/8b5i.png"
+              alt="Java"
+              
+              width={400}
+            />
+            <h4>⭐⭐⭐</h4>
+      </div>
+        
+        
+        
          <div>
             <img
-              src="https://zupimages.net/up/22/49/wq2x.jpg"
+              src="https://zupimages.net/up/22/49/65sk.png"
               alt="user avatar"
-              className="logo"
+                 width={400}
              
-            />
+          />
+          <h4>⭐⭐⭐⭐</h4>
           </div>
       </div>
        
@@ -244,7 +285,7 @@ function About() {
             </div>
             <div className="col-md-4">
               <div className="card mb-4 shadow-sm">
-                <svg
+                {/* <svg
                   className="bd-placeholder-img card-img-top"
                   width="100%"
                   height="225"
@@ -259,7 +300,17 @@ function About() {
                   <text x="50%" y="50%" fill="#eceeef" dy=".3em">
                     Thumbnail
                   </text>
-                </svg>
+                </svg> */}
+                <div>
+            <img
+              src="https://zupimages.net/up/22/49/65sk.png"
+              alt="user avatar"
+                 width={400}
+             
+          />
+        
+          </div>
+                
                 <div className="card-body">
                   <p className="card-text">
                     This is a wider card with supporting text below as a natural

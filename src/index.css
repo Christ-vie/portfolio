@@ -41,32 +41,7 @@ main {
   color: #e027fe;
 }
 
-/* .decor {
-  background: linear-gradient(
-    -45deg,
-    #fc8642,
-    #ff453f,
-    #ff470f,
-    #77043a,
-    #ffa260,
-    #cfa473
-  );
-  background-size: 500% 400%;
-  animation: gradient 3s ease infinite;
-  height: 100vh;
-}
 
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-} */
 
 .card_left {
   justify-content: center;
@@ -156,6 +131,12 @@ margin-top: 10%;
   margin-left: 7%;
   height: 30%;
   border-radius: 4%;
+  background-color: #fdedff;
+}
+.card_competences:hover{
+
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
 }
 .titre_un{
   
@@ -179,16 +160,16 @@ p{
 .parcourt{
   text-align: center;
 }
-.comp_l{
- text-align: center;
- display: flex;
-margin-left: 40%;
-margin-top: 7%;
- letter-spacing:4%;
 
+.comp_l{
+margin-left: 1%;
+display: flex;
+margin-top: 5%;
+position: relative;
+animation: comp_l 1s infinite;
 }
-.logo{
-  height: 40px;
- width: 70px;
- text-indent: 50px;
+
+@keyframes comp_l {
+  from {right: 1px;}
+  to {left: 10px;}
 }
